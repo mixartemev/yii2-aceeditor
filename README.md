@@ -46,7 +46,8 @@ trntv\aceeditor\AceEditor::widget([
 
     'mode'=>'html', // programing language mode. Default "html"
     'theme'=>'github', // editor theme. Default "github"
-    'readOnly'=>'true' // Read-only mode on/off = true/false. Default "false"
+    'readOnly'=>'true', // Read-only mode on/off = true/false. Default "false"
+    'wrap'=>true // Wrap mode on/off = true/false. Default "false"
 ]);
 ```
 
@@ -58,7 +59,8 @@ $form->field($model, 'field')->widget(
         [
             'mode'=>'html', // programing language mode. Default "html"
             'theme'=>'github', // editor theme. Default "github"
-            'readOnly'=>'true' // Read-only mode on/off = true/false. Default "false"
+            'readOnly'=>'true', // Read-only mode on/off = true/false. Default "false"
+            'wrap'=>true // Wrap mode on/off = true/false. Default "false"
         ]
     )
 ```
