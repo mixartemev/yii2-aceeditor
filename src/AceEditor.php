@@ -30,10 +30,10 @@ class AceEditor extends InputWidget
      */
     public $theme = 'github';
 
-	/**
-	 * @var bool to wrap or not to wrap
-	 */
-	public $wrap = false;
+    /**
+     * @var bool to wrap or not to wrap
+     */
+    public $wrap = false;
     
     /**
      * @var array Div options
