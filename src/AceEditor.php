@@ -30,6 +30,11 @@ class AceEditor extends InputWidget
      */
     public $theme = 'github';
 
+	/**
+	 * @var bool to wrap or not to wrap
+	 */
+	public $wrap = false;
+    
     /**
      * @var array Div options
      */
@@ -50,6 +55,7 @@ class AceEditor extends InputWidget
         $this->getView()->registerJs("{$editor_var}.setTheme(\"ace/theme/{$this->theme}\")");
         $this->getView()->registerJs("{$editor_var}.getSession().setMode(\"ace/mode/{$this->mode}\")");
         $this->getView()->registerJs("{$editor_var}.getSession().setReadOnly({$this->readOnly})");
+        $this->getView()->registerJs("{$editor_var}.getSession().setUseWrapMode({$this->wrap})");
 
         $textarea_var = 'acetextarea_' . $editor_id;
         $this->getView()->registerJs("
