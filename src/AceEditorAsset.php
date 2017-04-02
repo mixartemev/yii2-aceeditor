@@ -1,12 +1,12 @@
 <?php
 
-namespace trntv\aceeditor;
+namespace mixartemev\aceeditor;
 
 use yii\web\AssetBundle;
 
 /**
  * Class AceEditorAsset
- * @package trntv\aceeditor
+ * @package mixartemev\aceeditor
  * @author Eugene Terentev <eugene@terentev.net>
  */
 class AceEditorAsset extends AssetBundle

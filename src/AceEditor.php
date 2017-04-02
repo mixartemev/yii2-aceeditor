@@ -1,6 +1,6 @@
 <?php
 
-namespace trntv\aceeditor;
+namespace mixartemev\aceeditor;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
@@ -8,7 +8,7 @@ use yii\widgets\InputWidget;
 
 /**
  * Class AceEditor
- * @package trntv\aceeditor
+ * @package mixartemev\aceeditor
  * @author Eugene Terentev <eugene@terentev.net>
  */
 class AceEditor extends InputWidget
